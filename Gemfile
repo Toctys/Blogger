@@ -41,11 +41,11 @@ gem 'foundation-rails'
 
 group :production do 
 	gem 'pg'
-	gem 'sqlite3'
 	gem 'rails_12factor'
 end
 
 group :development do
 	gem 'quiet_assets'
 	gem 'spring'
+	gem 'sqlite3'
 end
