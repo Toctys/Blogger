@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong><h5>Title:</h5></strong>
   <%= @post.title %>
 </p>
 
@@ -12,7 +12,7 @@
 
 <p>
   <strong>Picture:</strong>
-  <%= @post.picture %>
+  <img src="<%= @post.picture %>">
 </p>
 
 <% render :partial => @post %>
